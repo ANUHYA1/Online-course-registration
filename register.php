@@ -8,7 +8,7 @@ $email=$_POST["email"];
 $phone=$_POST["contact"];
 $deptid=$_POST["department"];
 $password=$_POST["password"];
-$password1=trim($password);
+$password1=trim($password1);
 
 $hash=hash('sha256', $password1);
 
